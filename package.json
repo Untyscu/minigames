@@ -1,0 +1,36 @@
+{
+  "name": "volot.local",
+  "version": "1.0.0",
+  "description": "for friend",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " gulp & gulp sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Untyscu/volot.pp.ua.git"
+  },
+  "keywords": [
+    "volot"
+  ],
+  "author": "untyscu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Untyscu/volot.pp.ua/issues"
+  },
+  "homepage": "https://github.com/Untyscu/volot.pp.ua#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file": "^0.4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-tap": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7"
+  }
+}
