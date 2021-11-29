@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div id="board" class="board glass"></div>
-    <div id="panel" class="panel glass"></div>
-    <script src="./js/main.js"></script>
+    <div class="container">
+        <div class="panel glass">
+            <div class="panel__points" id="panel"></div>
+            <button class="panel__btn btn" id="start">start</button>
+            <div id="clock" class="panel__clock"></div>
+        </div>
+        <div id="board" class="board glass"></div>
+        <div id="result" class="result glass"></div>
+    </div>
+    <script src="./js/main-min.js"></script>
 </body>
 </html>

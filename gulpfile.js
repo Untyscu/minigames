@@ -1,12 +1,9 @@
 const gulp = require('gulp');
 const fs = require('fs');
-// const tap = require('gulp-tap');
-// const path = require('path');
-// const file = require('gulp-file');
 const bs = require('browser-sync').create();
 const autoprefixer = require('gulp-autoprefixer')
 const mini = require('gulp-minify')
-const imagemin = require('gulp-imagemin')
+const imagemin = require('imagemin')
 const cleancss = require('gulp-clean-css')
 const sass = require('gulp-sass');
 sass.compiler = require('node-sass')

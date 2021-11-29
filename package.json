@@ -9,28 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Untyscu/volot.pp.ua.git"
+    "url": "git@github.com:Untyscu/minigames.git"
   },
   "keywords": [
-    "volot"
+    "games"
   ],
   "author": "untyscu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Untyscu/volot.pp.ua/issues"
+    "url": "https://github.com/Untyscu/minigames/issues"
   },
-  "homepage": "https://github.com/Untyscu/volot.pp.ua#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
+  "homepage": "https://github.com/Untyscu/minigames",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-file": "^0.4.0",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^7.0.1",
     "gulp-minify": "^3.1.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-tap": "^2.0.0",
-    "node-sass": "^4.14.1",
+    "imagemin": "^7.0.1",
+    "node-sass": "^6.0.1",
     "path": "^0.12.7"
   }
 }
