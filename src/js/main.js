@@ -8,7 +8,7 @@ window.onload = () => {
         line: 7,
         column: 7,
         elements: [],
-        timeout: 10
+        timeout: 10000
     }
 
     function Element(x, y, label, id){
